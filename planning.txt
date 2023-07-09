@@ -1,0 +1,15 @@
+TO DOs:
+
+- take arguments and do error checking
+  - flags can also come after ip address
+- resolve DNS
+- do the ping
+  - how to 'wait' for a response?
+- print response
+- handle -v flag
+- handle SIGQUIT etc
+
+
+https://linux.die.net/man/8/ping
+https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol
+https://datatracker.ietf.org/doc/html/rfc792
