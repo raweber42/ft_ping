@@ -3,7 +3,7 @@
 
 int main (int args, char **argv) {
 
-  
+  printf("args: %i, argv[0]: %s\n", args, argv[0]);
   // check if its a valid IP address
   // invalid number as ip -> "ping: 8.8.8.88888: Name or service not known"
   // invalid dns -> "ping: google: No address associated with hostname"
